@@ -7,6 +7,4 @@ with open(sys.argv[1], 'r') as test_cases:
     	for i, t in enumerate(test):
     		if i%2 == 0:
     			result += t + " "
-    		if t == " ":
-    			count += 1
     	print(result.strip())
